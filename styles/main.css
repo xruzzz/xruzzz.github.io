@@ -1,0 +1,54 @@
+body {
+  background: rgb(0,00,0);
+}
+
+span{
+ font-size: 40px;
+}
+div{
+ font-size: 40px;
+}
+
+h1 {
+  color: rgba(0,0,0,0.3);
+  font-family: arial, sans-serif;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10pt;
+  word-spacing: 0.5pt;
+  text-shadow: 5px 5px 5px rgba(35,255,255,0.5);
+}
+
+h2 {
+  color: rgba(20,40,30,0.2);
+  font-family: arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10pt;
+  word-spacing: 0.5pt;
+  text-shadow: 3px 4px 5px rgba(190,255,205,0.2);
+}
+
+p {
+  color: rgba(150,150,200,0.5);
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 10pt;
+  word-spacing: 0.5pt;
+  text-shadow: 2px 2px 2px rgba(35,255,255,0.4);
+}
+
+a {
+  color: rgba(0,0,50,0.5);
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10pt;
+  word-spacing: 0.5pt;
+  text-shadow: 5px 5px 5px rgba(35,255,255,0.5);
+}
