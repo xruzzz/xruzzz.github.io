@@ -1,0 +1,31 @@
+#clock {
+  background: rgb(0,0,0);
+  color: rgba(0,0,0,0.3);
+  font-family: arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10pt;
+  word-spacing: 0.5pt;
+  text-shadow: 5px 5px 5px rgba(35,255,255,0.5);
+  padding: 4px;
+}
+
+#clock-div {
+  bottom: 0;
+  right: 0;
+}
+
+/*
+width: 50px;
+#clock {
+  background: rgb(0,00,0);
+  color: rgba(0,0,0,0.3);
+  font-family: arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10pt;
+  word-spacing: 0.5pt;
+  text-shadow: 5px 5px 5px rgba(35,255,255,0.5);
+}

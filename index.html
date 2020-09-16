@@ -4,15 +4,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <link rel="stylesheet" href="./styles/main.css">
-  <title></title>
+  <link rel="stylesheet" href="./styles/common.css">
+  <link rel="stylesheet" href="./styles/clock.css">
+  <link rel="stylesheet" href="./styles/fixed-navigation-bar.css">
+  <title>АЛТрон</title>
+  <script type="text/javascript">  
+    setInterval(function () {
+        date = new Date(),
+        h = date.getHours(),
+        m = date.getMinutes(),
+        s = date.getSeconds(),
+        h = (h < 10) ? '0' + h : h,
+        m = (m < 10) ? '0' + m : m,
+        s = (s < 10) ? '0' + s : s,
+        document.getElementById('clock').innerHTML = h + ':' + m;
+    }, 1000);  
+  </script>
 </head>
 <body>
     <div>
-        <h1>АЛТрон</h1>
+        <div>
+          <h1>АЛТрон</h1>
+        </div>
         <h2>Переводы</h2>
+    </div>
+    <div class="center_area">
+      <div class="content">
         <p>Переводы на русский язык:
         <a href="README.md">Read Me</a></p>
+      </div>
     </div>
+  <div class="fixed-nav-bar">
+    <div class="column1">
+      <nav>
+        <div id="menu" class="menu">
+          <!-- <a class="sitename" href="fixed-navigation-bar.html">Fixed Nav Bar</a>
+          Example responsive navigation menu  -->
+          <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+          <ul class="menu-items">
+            <li><a href="">О</a></li>
+            <li><a href="">АЛТрон</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="column2">
+    <!--   <div id="clock-div">-->
+        <span id="clock">00:00</span>
+    </div>
+  </div>
 </body>
 </html>
